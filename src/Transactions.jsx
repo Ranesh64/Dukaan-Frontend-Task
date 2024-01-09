@@ -21,14 +21,11 @@ const paginationArr = [1, "...", 10, 11, 12, 13, 14, 15, 16, 17, 18];
 
 const Transactions = () => {
   return (
-    <div  >
+    <div>
       <div className="text-primary font-medium text-xl mb-5">
         Transactions | This Month
       </div>
-      <div
-        className="bg-white px-3 pt-3 pb-6 rounded-lg flex flex-col gap-3"
-        style={{ boxShadow: "0px 2px 6px 0px rgba(26, 24, 30, 0.04)" }}
-      >
+      <div className="bg-white px-3 pt-3 pb-6 rounded-lg flex flex-col gap-3 custom-shadow">
         <div className="flex justify-between items-center">
           <div className="px-4 py-2.5 bg-transparent border border-primary rounded">
             <div className="flex items-center gap-x-2">
